@@ -1,0 +1,144 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+main .heading {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.projects .projectsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.projectsWrapper .project {
+  display: flex;
+  flex-direction: column;
+  width: min(21.25rem, 100%);
+  height: auto;
+  border: 0.0625rem solid var(--border-clr);
+  border-radius: 0.3125rem;
+  background: var(--primary-op);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+}
+
+.project .projectDetail {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  gap: 0.625rem;
+}
+
+.projectDetail .details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.details .body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  min-height: 9.375rem;
+}
+
+.body .projectTitle {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.body .projectBody {
+  opacity: 0.7;
+}
+
+.details .techUsed {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.techUsed .heading {
+  font-size: 0.8125rem;
+}
+
+.techUsed .techUsedList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+  padding-block: 0.3125rem;
+  font-size: 0.75rem;
+}
+
+.techUsedList span {
+  padding: 0.125rem 0.5rem;
+  border: 0.0625rem solid var(--border-clr);
+  background: var(--secondary-op);
+  border-radius: 0.728125rem;
+}
+
+.projectDetail .button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.projectDetail .button a {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  padding: 0.49rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.projectDetail .button a:hover {
+  opacity: 0.7;
+}
+
+.button .whiteButton {
+  border: 0.0625rem solid var(--border-clr);
+  background: var(--secondary-clr);
+  color: var(--primary-clr);
+}
+
+.button .blackButton {
+  border: 0.0625rem solid var(--border-clr);
+  background: var(--secondary-op);
+}
+
+.projects .showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.25rem;
+  height: 2.1875rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid var(--border-clr);
+  background: var(--secondary-op);
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-inline: auto;
+}
+
+.projects .showMore:hover i {
+  font-size: 1.25rem;
+}
+
+.showMore i {
+  font-size: 0;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in-out;
+}

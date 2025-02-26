@@ -1,0 +1,103 @@
+.aboutAndContacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.aboutAndContacts .about,
+.aboutAndContacts .contacts {
+  display: flex;
+  border: 1px solid var(--border-clr);
+  width: min(21.25rem, 100%);
+  height: 6.25rem;
+  padding-inline: 1.25rem;
+  border-radius: 0.3125rem;
+}
+
+.aboutAndContacts .about {
+  align-items: center;
+  gap: 0.625rem;
+}
+/*Image Wrapper*/
+.about .image {
+  display: flex;
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0.125rem;
+  border-radius: 50%;
+  background: var(--photoFrameGradient);
+}
+/*Profile Picture*/
+.image img {
+  border: 0.1875rem solid var(--primary-clr);
+  border-radius: inherit;
+}
+
+.about .myInfo {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+/*Mohammed Abdi*/
+.about .name {
+  font-size: 1rem;
+}
+/*Front-End Developer*/
+.about .title {
+  font-size: 0.85rem;
+}
+/*Dire Dawa, 3000 Ethiopia*/
+.about .address {
+  display: flex;
+  align-items: center;
+  gap: 0.1875rem;
+  opacity: 0.5;
+  font-size: 0.71rem;
+}
+
+.aboutAndContacts .contacts {
+  flex-direction: column;
+  justify-content: center;
+}
+/*header for contacts section*/
+.contacts .header {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-weight: 500;
+  transform: translateY(-0.3125rem);
+}
+
+.contacts .links {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.contacts .link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts .link:hover span {
+  font-size: 0.75rem;
+}
+
+.contacts .link i {
+  font-size: 1.5rem;
+  padding: 0.3125rem;
+}
+
+.contacts .link span {
+  font-size: 0;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 45.625rem) {
+  .aboutAndContacts .about,
+  .aboutAndContacts .contacts {
+    width: 100%;
+  }
+}

@@ -1,0 +1,106 @@
+/*making transition smooth*/
+.backgroundGradient,
+.about,
+.contacts,
+.technologies,
+.heading,
+.project,
+.experience,
+.education,
+.showMore {
+  transition: all 0.7s ease-in-out;
+}
+/*gradient background for aesthetics*/
+.backgroundGradient {
+  transition: all 0.3s ease-in-out;
+}
+/*adding show class to hidden*/
+.backgroundGradient.show {
+  width: 12.5rem;
+}
+/*about Me*/
+.about {
+  transform: translateX(-3.125rem);
+  opacity: 0;
+}
+/*My contact Infos*/
+.contacts {
+  transform: translateX(3.125rem);
+  opacity: 0;
+}
+/*technologies I use*/
+.technologies {
+  transform: translateY(3.125rem);
+  opacity: 0;
+}
+/*General fill*/
+.fill {
+  width: 0;
+  transition: all 2s ease-in-out;
+}
+/*JavaScript fill*/
+.js .fill.show {
+  width: 78%;
+}
+/*css fill*/
+.css .fill.show {
+  width: 92%;
+}
+/*c plus plus fill*/
+.cpp .fill.show {
+  width: 88%;
+}
+/*html fill*/
+.html .fill.show {
+  width: 98%;
+}
+/*Project section*/
+.project {
+  transform: translateY(3.125rem);
+  opacity: 0;
+}
+/*experience section*/
+.experience {
+  transform: translateY(3.125rem);
+  opacity: 0;
+}
+/*education section*/
+.education {
+  transform: translateY(3.125rem);
+  opacity: 0;
+}
+/*headings*/
+.heading {
+  opacity: 0;
+  padding-left: 0.625rem;
+}
+
+.showMore {
+  transform: scale(0.5) translateY(100px);
+  opacity: 0;
+}
+/*adding show class to hidden*/
+.education.show,
+.experience.show,
+.project.show,
+.technologies.show,
+.contacts.show,
+.about.show,
+.heading.show,
+.showMore.show {
+  transform: translate(0, 0);
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media (max-width: 45.625rem) {
+  .about {
+    transform: translateY(3.125rem);
+    opacity: 0;
+  }
+
+  .contacts {
+    transform: translateY(3.125rem);
+    opacity: 0;
+  }
+}
