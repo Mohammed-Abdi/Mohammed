@@ -50,7 +50,7 @@ main .heading {
   display: flex;
   flex-direction: column;
   gap: 0.3125rem;
-  min-height: 9.375rem;
+  min-height: 6.375rem;
 }
 
 .body .projectTitle {
@@ -67,7 +67,7 @@ main .heading {
   font-size: 0.75rem;
 }
 
-.techUsed .heading {
+.techUsed .header {
   font-size: 0.8125rem;
 }
 
