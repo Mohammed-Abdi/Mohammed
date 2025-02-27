@@ -27,11 +27,13 @@
 .contacts {
   transform: translateX(3.125rem);
   opacity: 0;
+  transition-delay: 0s;
 }
 /*technologies I use*/
 .technologies {
   transform: translateY(3.125rem);
   opacity: 0;
+  transition-delay: 0s;
 }
 /*General fill*/
 .fill {
@@ -96,12 +98,10 @@
 @media (max-width: 45.625rem) {
   .about {
     transform: translateY(3.125rem);
-    opacity: 0;
   }
 
   .contacts {
     transform: translateY(3.125rem);
-    opacity: 0;
     transition-delay: 0.1s;
   }
   .technologies {
