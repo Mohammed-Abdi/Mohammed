@@ -20,18 +20,20 @@
 }
 /*about Me*/
 .about {
-  transform: translateX(-3.125rem);
+  transform: translateY(3.125rem);
   opacity: 0;
 }
 /*My contact Infos*/
 .contacts {
-  transform: translateX(3.125rem);
+  transform: translateY(3.125rem);
   opacity: 0;
+  transition-delay: 0.1s;
 }
 /*technologies I use*/
 .technologies {
   transform: translateY(3.125rem);
   opacity: 0;
+  transition-delay: 0.3s;
 }
 /*General fill*/
 .fill {
@@ -93,18 +95,17 @@
   opacity: 1;
 }
 
-@media (max-width: 45.625rem) {
+@media (min-width: 45.625rem) {
   .about {
-    transform: translateY(3.125rem);
-    opacity: 0;
+    transform: translateX(-3.125rem);
   }
 
   .contacts {
-    transform: translateY(3.125rem);
+    transform: translateX(3.125rem);
     opacity: 0;
-    transition-delay: 0.1s;
+    transition-delay: 0s;
   }
   .technologies {
-    transition-delay: 0.3s;
+    transition-delay: 0s;
   }
 }
