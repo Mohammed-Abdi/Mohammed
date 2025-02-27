@@ -35,7 +35,7 @@ main {
 /*Background color for aesthetics*/
 .backgroundGradient {
   position: fixed;
-  width: 0rem;
+  width: 12.5rem;
   height: 18.75rem;
   top: -0.625rem;
   left: 50%;

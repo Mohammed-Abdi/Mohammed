@@ -8,15 +8,7 @@
 .experience,
 .education,
 .showMore {
-  transition: all 1s ease-in-out;
-}
-/*gradient background for aesthetics*/
-.backgroundGradient {
-  transition: all 0.3s ease-in-out;
-}
-/*adding show class to hidden*/
-.backgroundGradient.show {
-  width: 12.5rem;
+  transition: all 0.85s ease-in-out;
 }
 /*about Me*/
 .about {
