@@ -36,8 +36,8 @@ main {
 .backgroundGradient {
   position: fixed;
   width: 22.5rem;
-  height: 18.75rem;
-  top: -0.625rem;
+  height: 20rem;
+  top: -7rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
