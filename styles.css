@@ -29,7 +29,7 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  padding-block: 3.125rem;
+  padding-bottom: 3.125rem;
   gap: 1.25rem;
 }
 /*Background color for aesthetics*/

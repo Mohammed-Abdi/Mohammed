@@ -1,0 +1,15 @@
+.en {
+  display: none;
+}
+
+.en.display {
+  display: block;
+}
+
+.am {
+  display: none;
+}
+
+.am.display {
+  display: block;
+}
