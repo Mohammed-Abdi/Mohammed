@@ -102,5 +102,9 @@
   .contacts {
     transform: translateY(3.125rem);
     opacity: 0;
+    transition-delay: 0.1s;
+  }
+  .technologies {
+    transition-delay: 0.3s;
   }
 }
