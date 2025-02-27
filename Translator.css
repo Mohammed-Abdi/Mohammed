@@ -3,7 +3,7 @@
 }
 
 .en.display {
-  display: block;
+  display: inline;
 }
 
 .am {
@@ -11,5 +11,5 @@
 }
 
 .am.display {
-  display: block;
+  display: inline;
 }

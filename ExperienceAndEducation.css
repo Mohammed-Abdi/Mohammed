@@ -29,6 +29,9 @@
 }
 
 .bio .address {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
   font-weight: 400;
   font-size: 0.8125rem;
 }
