@@ -92,3 +92,19 @@
   transform: scale(1);
   opacity: 1;
 }
+
+@media (max-width: 45.625rem) {
+  .about {
+    transform: translateY(3.125rem);
+    opacity: 0;
+  }
+
+  .contacts {
+    transform: translateY(3.125rem);
+    opacity: 0;
+    transition-delay: 0.1s;
+  }
+  .technologies {
+    transition-delay: 0.2s;
+  }
+}
