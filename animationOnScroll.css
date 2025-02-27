@@ -96,6 +96,17 @@
 }
 
 @media (max-width: 45.625rem) {
+  .backgroundGradient,
+  .about,
+  .contacts,
+  .technologies,
+  .heading,
+  .project,
+  .experience,
+  .education,
+  .showMore {
+    transition: all 0.7s ease-in-out;
+  }
   .about {
     transform: translateY(3.125rem);
   }
