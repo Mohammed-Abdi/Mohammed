@@ -29,7 +29,6 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  padding-bottom: 3.125rem;
   gap: 1.25rem;
 }
 /*Background color for aesthetics*/
