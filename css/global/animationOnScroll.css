@@ -4,10 +4,8 @@
 .contacts,
 .technologies,
 .heading,
-.project,
 .experience,
-.education,
-.showMore {
+.education {
   transition: all 0.85s ease-in-out;
 }
 /*about Me*/
@@ -48,11 +46,6 @@
 .html .fill.show {
   width: 98%;
 }
-/*Project section*/
-.project {
-  transform: translateY(3.125rem);
-  opacity: 0;
-}
 /*experience section*/
 .experience {
   transform: translateY(3.125rem);
@@ -69,10 +62,6 @@
   padding-left: 0.625rem;
 }
 
-.showMore {
-  transform: scale(0.5) translateY(100px);
-  opacity: 0;
-}
 /*adding show class to hidden*/
 .education.show,
 .experience.show,
