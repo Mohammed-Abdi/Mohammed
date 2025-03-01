@@ -1,0 +1,18 @@
+:root {
+  --primary-clr: #000000;
+  --primary-op: #00000048;
+  --secondary-clr: #ffffff;
+  --secondary-op: #8585851a;
+  --tertiary-clr: #8800ff57;
+  --border-clr: #282c39;
+  --photoFrameGradient: conic-gradient(
+    from 180deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #7f1392,
+    #f58529
+  );
+  --max-width: 43.75rem;
+  --global-padding: 1.25rem;
+}
