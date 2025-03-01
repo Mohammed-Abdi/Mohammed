@@ -65,12 +65,10 @@
 /*adding show class to hidden*/
 .education.show,
 .experience.show,
-.project.show,
 .technologies.show,
 .contacts.show,
 .about.show,
-.heading.show,
-.showMore.show {
+.heading.show {
   transform: translate(0, 0);
   transform: scale(1);
   opacity: 1;
