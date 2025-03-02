@@ -1,14 +1,22 @@
 const translator = document.querySelector(".translator");
-const languageElements = document.querySelectorAll(".en, .am");
+const enTexts = document.querySelectorAll(".en");
+const amTexts = document.querySelectorAll(".am");
 
 const isTranslated = localStorage.getItem("translated") === "true";
+
 if (isTranslated) {
-    languageElements.forEach(text => text.classList.add("display"));
+    enTexts.forEach(text => text.classList.add("display"));
+    amTexts.forEach(text => text.classList.remove("display"));
+} else {
+    enTexts.forEach(text => text.classList.remove("display"));
+    amTexts.forEach(text => text.classList.add("display"));
 }
 
 translator.addEventListener("click", () => {
-    const isActive = languageElements[0].classList.toggle("display");
-    languageElements.forEach(text => text.classList.toggle("display"));
-    
-    localStorage.setItem("translated", isActive);
+    const isActive = enTexts[0].classList.contains("display");
+
+    enTexts.forEach(text => text.classList.toggle("display"));
+    amTexts.forEach(text => text.classList.toggle("display"));
+
+    localStorage.setItem("translated", !isActive);
 });
