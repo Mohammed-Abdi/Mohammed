@@ -1,7 +1,6 @@
 # Mohammed Abdi - Portfolio Website 🌟
 
-![Portfolio Mockup](https://via.placeholder.com/800x400.png?text=Portfolio+Mockup+Preview+%7C+Replace+with+Actual+Screenshot)  
-*Replace this placeholder with a screenshot/mockup of your live site. Example: [Figma mockup](https://imgur.com/), [Device Mockup Generator](https://mockuphone.com/)*
+![Portfolio Mockup](https://Images/Projects/Portfolio Mockup.webp)  
 
 A modern, minimalist portfolio website showcasing projects, skills, and professional experience. Built with performance and aesthetics in mind.
 
