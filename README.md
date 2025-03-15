@@ -1,6 +1,6 @@
 # Mohammed Abdi - Portfolio Website 🌟
 
-![Portfolio Mockup](https://Images/Projects/Portfolio Mockup.webp)  
+![Portfolio Mockup](./Images/Projects/Portfolio%20Mockup.webp)  
 
 A modern, minimalist portfolio website showcasing projects, skills, and professional experience. Built with performance and aesthetics in mind.
 
