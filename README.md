@@ -1,4 +1,4 @@
-# Mohammed Abdi - Portfolio Website 🌟
+# Portfolio Website
 
 ![Portfolio Mockup](./Images/Projects/Portfolio%20Mockup.webp)  
 
