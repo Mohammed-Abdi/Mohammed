@@ -14,7 +14,7 @@ if (isTranslated) {
 }
 
 translator.addEventListener("click", () => {
-    const isActive = enTexts[0].classList.contains("display");
+    const isActive = amTexts[0].classList.contains("display");
 
     enTexts.forEach(text => text.classList.toggle("display"));
     amTexts.forEach(text => text.classList.toggle("display"));
