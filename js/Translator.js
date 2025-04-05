@@ -2,21 +2,15 @@ const translator = document.querySelector(".translator");
 const enTexts = document.querySelectorAll(".en");
 const amTexts = document.querySelectorAll(".am");
 
-let isTranslated = localStorage.getItem("translated");
-
-if (isTranslated === null) {
-    isTranslated = false;
-    localStorage.setItem("translated", "false");
-} else {
-    isTranslated = isTranslated === "true";
-}
+const isTranslated = localStorage.getItem("translated") === "true";
 
 if (isTranslated) {
-    enTexts.forEach(text => text.classList.add("display"));
-    amTexts.forEach(text => text.classList.remove("display"));
-} else {
     enTexts.forEach(text => text.classList.remove("display"));
     amTexts.forEach(text => text.classList.add("display"));
+} else {
+    enTexts.forEach(text => text.classList.add("display"));
+    amTexts.forEach(text => text.classList.remove("display"));
+    
 }
 
 translator.addEventListener("click", () => {
