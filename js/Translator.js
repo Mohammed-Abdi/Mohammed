@@ -2,7 +2,14 @@ const translator = document.querySelector(".translator");
 const enTexts = document.querySelectorAll(".en");
 const amTexts = document.querySelectorAll(".am");
 
-const isTranslated = localStorage.getItem("translated") === "true";
+let isTranslated = localStorage.getItem("translated");
+
+if (isTranslated === null) {
+    isTranslated = false;
+    localStorage.setItem("translated", "false");
+} else {
+    isTranslated = isTranslated === "true";
+}
 
 if (isTranslated) {
     enTexts.forEach(text => text.classList.add("display"));
